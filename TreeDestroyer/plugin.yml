@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: TreeDestroyer
 main: me.ceramictitan.TreeDestroyer.TreeDestroyer
 version: 5
@@ -22,4 +23,30 @@ commands:
     description: downloads the plugins latest version.
     aliases: [u]
     usage: /<command>
+=======
+name: TreeDestroyer
+main: me.ceramictitan.TreeDestroyer.TreeDestroyer
+version: 5
+description: >
+             A tree destroying plugin for bukkit.
+commands:
+  destroy:
+    description: destroys logs
+    aliases: [d]
+    permissions: treedestroyer.destroy
+    usage: /<command>
+  treeinfo:
+    description: displays plugin information.
+    aliases: [ti]
+    permissions: treedestroyer.info
+    usage: /<command>
+  treereload:
+    description: reloads config.
+    aliases: [tr]
+    usage: /<command>
+  update:
+    description: downloads the plugins latest version.
+    aliases: [u]
+    usage: /<command>
+>>>>>>> origin/master
        
