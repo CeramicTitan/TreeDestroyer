@@ -1,0 +1,21 @@
+name: TreeDestroyer
+main: me.ceramictitan.TreeDestroyer.TreeDestroyer
+version: 6.4
+description: >
+             A tree destroying plugin for bukkit.
+commands:
+  destroy:
+    description: destroys logs
+    aliases: [d]
+    permissions: treedestroyer.destroy
+    usage: /<command>
+  treeinfo:
+    description: displays plugin information.
+    aliases: [ti]
+    permissions: treedestroyer.info
+    usage: /<command>
+  treereload:
+    description: reloads config.
+    aliases: [tr]
+    usage: /<command>
+       
